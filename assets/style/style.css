@@ -1,0 +1,20 @@
+.main__content {
+    width: 60%;
+    min-height: 20rem;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 20px;
+
+    background-color: rgb(207, 201, 228);
+}
+
+.main__result {
+    margin-top: 20px;
+    padding: 2%;
+    border-radius: 5px;
+
+    font-size: larger;
+
+    background-color: white;
+}
