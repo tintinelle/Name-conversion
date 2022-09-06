@@ -29,10 +29,6 @@ const convertName = () => {
     surname.innerHTML = `Фамилия: ${nameArr[0]}`;
     name.innerHTML = `Имя: ${nameArr[1]}`;
     patronymic.innerHTML = `Отчество: ${nameArr[2]}`;
-}
+};
 
 button.addEventListener('click', convertName);
-
-// nameArr.forEach((item, i) => {
-//     nameArr[i] = item[0].toUpperCase() + item.slice(1);
-// });
